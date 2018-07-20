@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
-html,
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-box {
+  background-color: #f47142;
+}
+.header-text,
+.header-title,
+.header-subtitle {
   font-family: 'Poppins';
-  background-color: #f7b688;
 }
