@@ -5,9 +5,26 @@
 }
 .header-box {
   background-color: #f47142;
+  margin: 0 auto;
 }
 .header-text,
 .header-title,
 .header-subtitle {
+  font-family: 'Poppins';
+  text-align: center;
+}
+.header-title {
+  font-size: 4rem;
+}
+.header-subtitle {
+  font-size: 3rem;
+}
+.body-box {
+  background-color: #99ffc3;
+  padding: 30px;
+}
+.body-text,
+.bio-div,
+.cv-div {
   font-family: 'Poppins';
 }
