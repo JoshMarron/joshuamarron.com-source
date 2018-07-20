@@ -1,4 +1,4 @@
-import '../style';
+import '../css/main';
 import { Component } from 'preact';
 
 import { Header } from "./header.js";

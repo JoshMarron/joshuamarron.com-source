@@ -1,3 +1,8 @@
 export function Header() {
-    return <h1>Joshua Marron</h1>;
+    return (
+        <div>
+            <h1 class="header-title">Joshua Marron</h1>
+            <h2 class="header-subtitle">Graduate Software Engineer</h2>
+        </div>
+    );
 }
