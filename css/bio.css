@@ -24,6 +24,24 @@
   padding: 50px 200px;
 }
 .body-text,
-.cv-div {
+.cv-div,
+.bio-div {
   font-family: 'Poppins';
+}
+.bio-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bio-text {
+  order: 0;
+  margin: auto 40px auto 0;
+}
+.bio-pic-box {
+  order: 1;
+  margin: auto;
+}
+.bio-pic {
+  width: 100%;
+  height: auto;
 }
